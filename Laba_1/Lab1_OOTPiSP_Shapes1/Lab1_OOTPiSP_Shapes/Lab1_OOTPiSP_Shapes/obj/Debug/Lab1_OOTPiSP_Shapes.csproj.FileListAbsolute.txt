@@ -1,0 +1,9 @@
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\bin\Debug\Lab1_OOTPiSP_Shapes.exe.config
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\bin\Debug\Lab1_OOTPiSP_Shapes.exe
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\bin\Debug\Lab1_OOTPiSP_Shapes.pdb
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.csprojAssemblyReference.cache
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.Figures.resources
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.Properties.Resources.resources
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.csproj.GenerateResource.cache
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.exe
+Y:\Work\OOTPiSP\Laba_1\Lab1_OOTPiSP_Shapes1\Lab1_OOTPiSP_Shapes\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.pdb
