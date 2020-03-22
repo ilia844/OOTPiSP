@@ -1,0 +1,9 @@
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\obj\Debug\Lab2_OOTPiSP_ShapesCreator.csprojAssemblyReference.cache
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\obj\Debug\Lab1_OOTPiSP_Shapes.Figures.resources
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\obj\Debug\Lab2_OOTPiSP_ShapesCreator.csproj.GenerateResource.cache
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\bin\Debug\Lab2_OOTPiSP_ShapesCreator.exe.config
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\bin\Debug\Lab2_OOTPiSP_ShapesCreator.exe
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\bin\Debug\Lab2_OOTPiSP_ShapesCreator.pdb
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\obj\Debug\Lab2_OOTPiSP_ShapesCreator.Properties.Resources.resources
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\obj\Debug\Lab2_OOTPiSP_ShapesCreator.exe
+Y:\Work\OOTPiSP\Laba_2\Lab2_OOTPiSP_ShapesCreator\Lab1_OOTPiSP_Shapes\obj\Debug\Lab2_OOTPiSP_ShapesCreator.pdb
