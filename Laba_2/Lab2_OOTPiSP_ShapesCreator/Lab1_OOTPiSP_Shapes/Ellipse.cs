@@ -9,11 +9,17 @@ namespace Lab1_OOTPiSP_Shapes
 {
     public class Ellipse: Shape
     {
-        private int width, height;
+        protected int width, height;
 
-        public Ellipse(int x, int y, int width, int height) : base(x, y) {
+        public Ellipse(int x, int y, int width, int height, Pen pen) : base(x, y, pen) {
             this.width = width;
             this.height = height;
+        }
+
+        public override void setProperties(int endX, int endY)
+        {
+            width = endX - coordinate.X;
+            height = endY - coordinate.Y;
         }
 
         public override void Draw(Graphics graphics) {

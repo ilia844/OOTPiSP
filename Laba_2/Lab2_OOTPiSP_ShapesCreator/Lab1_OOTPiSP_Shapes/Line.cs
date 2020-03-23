@@ -11,9 +11,15 @@ namespace Lab1_OOTPiSP_Shapes
     {
         private Point endPt;
 
-        public Line(int x, int y, int width, int height): base (x, y) {
+        public Line(int x, int y, int width, int height, Pen pen): base (x, y, pen) {
             this.endPt.X = x + width;
             this.endPt.Y = y + height;
+        }
+
+        public override void setProperties(int endX, int endY)
+        {
+            endPt.X = endX;
+            endPt.Y = endY;
         }
 
         public override void Draw(Graphics graphics) {

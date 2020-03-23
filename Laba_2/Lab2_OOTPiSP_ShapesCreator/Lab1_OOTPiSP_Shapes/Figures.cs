@@ -13,9 +13,13 @@ namespace Lab1_OOTPiSP_Shapes
     public partial class Figures : Form
     {
 
-        Graphics canvas;
-        List<Shape> listOfShapes = new List<Shape>();
-        Random random = new Random();
+//        Graphics mainCanvas;
+        Graphics tempCanvas;
+        Image image;
+        Graphics mainImage;
+        Shape model;
+
+        bool isDrawing;
 
         public Figures()
         {
@@ -24,86 +28,94 @@ namespace Lab1_OOTPiSP_Shapes
 
         private void Figures_Load(object sender, EventArgs e)
         {
-            canvas = pictureBox1.CreateGraphics();         
+            tempCanvas = pbTemp.CreateGraphics();
+//            mainCanvas = pbMain.CreateGraphics();
+            image = new Bitmap(pbTemp.Width, pbTemp.Height);
+            mainImage = Graphics.FromImage(image);
+
+            pbViewPenColor.BackColor = cdPenColor.Color;
         }
 
         private void btLine_Click(object sender, EventArgs e)
         {
-            var coordinate = getCoordinate();
-//           int penWidth = random.Next(1, 10);
-//           var color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-//          listOfShapes.Add(new Line(coordinate.X, coordinate.Y, 50, 50, new Pen(color, penWidth)));           
-            listOfShapes.Add(new Line(coordinate.X, coordinate.Y, 50, 50)); 
-        }
-
-        private Point getCoordinate() 
-        {
-            const int SHAPE_SIZE = 50;
-            const int BORDER = 20;
-            var coordinate = new Point();
-
-            coordinate.Y = (listOfShapes.Count / 9) * (SHAPE_SIZE + BORDER);
-            coordinate.X = (listOfShapes.Count % 9) * (SHAPE_SIZE + BORDER);
-            return coordinate;
+            model = new Line(0, 0, 0, 0, new Pen(cdPenColor.Color, tbPenWidth.Value));
         }
 
         private void btSqare_Click(object sender, EventArgs e)
         {
-            var coordinate = getCoordinate();
-//          int penWidth = random.Next(1, 10);
-//          var color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-            listOfShapes.Add(new Sqare(coordinate.X, coordinate.Y, 50));
+            model = new Sqare(0, 0, 0, new Pen(cdPenColor.Color, tbPenWidth.Value));
         }
 
         private void btRectangle_Click(object sender, EventArgs e)
         {
-            var coordinate = getCoordinate();
-//          int penWidth = random.Next(1, 10);
-//          var color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-            listOfShapes.Add(new Rectangle(coordinate.X, coordinate.Y, 50, 30));
+            model = new Rectangle(0, 0, 0, 0, new Pen(cdPenColor.Color, tbPenWidth.Value));
         }
 
         private void btTriangle_Click(object sender, EventArgs e)
         {
-            var coordinate = getCoordinate();
-//          int penWidth = random.Next(1, 10);
-//            var color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-            listOfShapes.Add(new Triangle(coordinate.X, coordinate.Y, coordinate.X + 50, coordinate.Y + 50, coordinate.X, coordinate.Y + 50));
+            model = new Triangle(0, 0, 0, 0, 0, 0, new Pen(cdPenColor.Color, tbPenWidth.Value));
         }
 
         private void btCircle_Click(object sender, EventArgs e)
         {
-            var coordinate = getCoordinate();
-//            int penWidth = random.Next(1, 10);
-//            var color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-            listOfShapes.Add(new Circle(coordinate.X, coordinate.Y, 50));
+            model = new Circle(0, 0, 0, new Pen(cdPenColor.Color, tbPenWidth.Value));
         }
 
         private void btEllipse_Click(object sender, EventArgs e)
         {
-            var coordinate = getCoordinate();
-//            int penWidth = random.Next(1, 10);
-//            var color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-            listOfShapes.Add(new Ellipse(coordinate.X, coordinate.Y, 50, 30));
+            model = new Ellipse(0, 0, 0, 0, new Pen(cdPenColor.Color, tbPenWidth.Value));
         }
 
-        private void btDraw_Click(object secnder, EventArgs e)
+        private void pbTemp_MouseDown(object sender, MouseEventArgs e)
         {
-            foreach (Shape shape in listOfShapes)
+            if (model != null)
             {
-                shape.Draw(canvas);
+                model.setStartPosition(e.X, e.Y);
+                isDrawing = true;
+            }            
+        }
+
+        private void pbTemp_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDrawing)
+            {
+                model.setProperties(e.X, e.Y);
+                tempCanvas.Clear(pbTemp.BackColor);
+                model.Draw(tempCanvas);
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pbTemp_MouseUp(object sender, MouseEventArgs e)
         {
+            if (isDrawing)
+            {
+                model.Draw(mainImage);
+                tempCanvas.DrawImage(image, 0, 0);
+            }
+            isDrawing = false;
+        }
 
+        private void btNUgolnik_Click(object sender, EventArgs e)
+        {
+            if (cdPenColor.ShowDialog() == DialogResult.Cancel)
+                return;
+            pbViewPenColor.BackColor = cdPenColor.Color;
+        }
+
+        private void pbViewPenColor_BackColorChanged(object sender, EventArgs e)
+        {
+            if (model != null)
+            {
+                model.setPenColor(cdPenColor.Color);
+            }
+        }
+
+        private void tbPenWidth_ValueChanged(object sender, EventArgs e)
+        {
+            if (model != null)
+            {
+                model.setPenWidth(tbPenWidth.Value);
+            }
         }
     }
 }

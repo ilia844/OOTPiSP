@@ -9,12 +9,17 @@ namespace Lab1_OOTPiSP_Shapes
 {
     public class Rectangle: Shape
     {
-        private int width;
-        private int height;
+        protected int width, height;
 
-        public Rectangle (int x, int y, int width, int height): base (x, y) {
+        public Rectangle (int x, int y, int width, int height, Pen pen): base (x, y, pen) {
             this.width =  width;
             this.height = height;
+        }
+
+        public override void setProperties(int endX, int endY)
+        {
+            width = Math.Abs(endX - coordinate.X);
+            height = Math.Abs(endY - coordinate.Y);
         }
 
         public override void Draw (Graphics graphics) {
