@@ -1,0 +1,9 @@
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\obj\Debug\Cars_Editor.csprojAssemblyReference.cache
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\obj\Debug\Cars_Editor.FormCars.resources
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\obj\Debug\Cars_Editor.Properties.Resources.resources
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\obj\Debug\Cars_Editor.csproj.GenerateResource.cache
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\bin\Debug\Cars_Editor.exe.config
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\bin\Debug\Cars_Editor.exe
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\bin\Debug\Cars_Editor.pdb
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\obj\Debug\Cars_Editor.exe
+Y:\Work\OOTPiSP\Laba_3\Cars_Serializa\Cars_Editor\Cars_Editor\obj\Debug\Cars_Editor.pdb

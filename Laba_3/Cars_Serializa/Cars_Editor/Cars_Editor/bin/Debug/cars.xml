@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Volkswagen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <owner>Person</owner>
+  <brand>Volkswagen</brand>
+  <transmission>Automatic</transmission>
+  <color />
+  <model>Amarok</model>
+</Volkswagen>
+<Audi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <owner>Person</owner>
+  <brand>Audi</brand>
+  <transmission>Automatic</transmission>
+  <color />
+  <model>RS5</model>
+</Audi>
+<BMW xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <owner>Person</owner>
+  <brand>BMW</brand>
+  <transmission>Automatic</transmission>
+  <color />
+  <model>M5</model>
+</BMW>
