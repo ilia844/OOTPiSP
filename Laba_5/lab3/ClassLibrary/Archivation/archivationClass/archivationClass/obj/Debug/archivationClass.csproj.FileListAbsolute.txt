@@ -1,0 +1,11 @@
+D:\Oles\БГУИР\2 курс\4 сем\ООТПиСП\лабы\lab5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\bin\Debug\archivationClass.dll
+D:\Oles\БГУИР\2 курс\4 сем\ООТПиСП\лабы\lab5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\bin\Debug\archivationClass.pdb
+D:\Oles\БГУИР\2 курс\4 сем\ООТПиСП\лабы\lab5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.csprojAssemblyReference.cache
+D:\Oles\БГУИР\2 курс\4 сем\ООТПиСП\лабы\lab5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.csproj.CoreCompileInputs.cache
+D:\Oles\БГУИР\2 курс\4 сем\ООТПиСП\лабы\lab5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.dll
+D:\Oles\БГУИР\2 курс\4 сем\ООТПиСП\лабы\lab5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.pdb
+Y:\Work\OOTPiSP\Laba_5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\bin\Debug\archivationClass.dll
+Y:\Work\OOTPiSP\Laba_5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\bin\Debug\archivationClass.pdb
+Y:\Work\OOTPiSP\Laba_5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.csprojAssemblyReference.cache
+Y:\Work\OOTPiSP\Laba_5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.dll
+Y:\Work\OOTPiSP\Laba_5\lab3\ClassLibrary\Archivation\archivationClass\archivationClass\obj\Debug\archivationClass.pdb
